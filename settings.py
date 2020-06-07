@@ -4,7 +4,7 @@ COOKIE ="pgv_pvid=7374219385; eas_sid=6175O539f9W9q4K3z4h8q0N1n4; pgv_pvi=997214
 
 
 for c in COOKIE.split(';'):
-	k,v = c.strip().split('=')
+	k, v = c.strip().split('=', 1)
 	if k == 'wr_vid':
 		break
 
